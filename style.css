@@ -1,0 +1,113 @@
+.navbar{
+    margin: 10px;
+}
+.nav-item{
+    background-color: #f6f6f690;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+body{
+    background-color: white;
+}
+.home-about{
+    border-radius: 2px;
+    font-size: large;
+    margin: 20px;
+}
+.home-botton{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.dropdown-menu{
+    background-color: white;
+}
+.abouthome{
+    background-color: white;
+}
+.loginPage{
+    background-attachment:scroll;
+    background-color: #12163560;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 200px;
+        height: 200px;    
+        border: 3px solid black;
+        margin: 500px 500px;
+}
+.login{
+    background-color: #121635;
+    background-image: url(605592.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    font-size: 4rem;
+    font-family: fantasy;
+    color: whitesmoke;
+    text-shadow: 10px 10px 0 purple, 10px 10px 0 white;
+    animation: text-ani 2s infinite;
+}
+
+@keyframes text-ani {
+    0%, 100% {
+        text-shadow: 5px 5px 0 purple, 10px 10px 0 gold;
+    }
+    50% {
+        text-shadow: -5px -5px 0 gold, -10px -10px 0 purple;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0px;
+    right: auto;
+    
+   
+}
+
+.carousel-item{
+    height: 600px;
+    image-rendering: optimizeQuality;
+} 
+.carousel-item img{
+    height: 600px;
+    
+}
+.carousel-caption h3 {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:right;
+}
+
+.orderedTable{
+    float: left;
+    margin-right:50px;
+}
+
+.listed-Table{
+    li:not(:first-of-type) {
+        padding-top: 1.0em;
+    }
+    li:not(:last-of-type) {
+        padding-bottom: 1.0em;
+    }
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.pageB-home{
+    background: url(gif.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+            image-rendering: optimizeQuality;
+    color:white;
+}
